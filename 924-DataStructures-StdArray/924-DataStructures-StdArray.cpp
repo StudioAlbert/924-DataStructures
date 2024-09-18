@@ -4,6 +4,22 @@
 #include <array>
 #include <iostream>
 
+void DisplayArray(std::array<int, 6> numbers)
+{
+	for(int idx = 0; idx < numbers.size(); idx++)
+	{
+		std::cout << "idx " << idx << " = " << numbers.at(idx) << '\n';
+	}
+}
+
+void Reset(std::array<int, 6> array)
+{
+    for (auto oneNumber : array)
+    {
+        oneNumber = 0;
+    }
+}
+
 int main()
 {
     std::array<int, 6> numbers;
@@ -12,15 +28,9 @@ int main()
     numbers.at(0) = 113;
 
 
-    for(int idx = 0; idx < numbers.size(); idx++)
-    {
-        std::cout << "idx " << idx << " = " << numbers.at(idx) << '\n';
-    }
+    DisplayArray(numbers);
 
-    for (auto oneNumber : numbers)
-    {
-        oneNumber = 0;
-    }
+    Reset(numbers);
 
     for (auto oneNumber : numbers)
     {
