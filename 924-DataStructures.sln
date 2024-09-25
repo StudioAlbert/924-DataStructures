@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "924-DataStructures-ArrayExe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "924-DataStructures-Vector", "924-DataStructures-Vector\924-DataStructures-Vector.vcxproj", "{783A8C69-9CF3-42EF-80D7-C5649F763E5B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "924-DataStructures-Queue", "924-DataStructures-Queue\924-DataStructures-Queue.vcxproj", "{17612A8D-21F4-4397-A53A-D6B93D49ED68}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "924-DataStructures-Map", "924-DataStructures-Map\924-DataStructures-Map.vcxproj", "{AFCC1290-2FC3-434C-9400-96DD0F7B9101}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +55,22 @@ Global
 		{783A8C69-9CF3-42EF-80D7-C5649F763E5B}.Release|x64.Build.0 = Release|x64
 		{783A8C69-9CF3-42EF-80D7-C5649F763E5B}.Release|x86.ActiveCfg = Release|Win32
 		{783A8C69-9CF3-42EF-80D7-C5649F763E5B}.Release|x86.Build.0 = Release|Win32
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Debug|x64.ActiveCfg = Debug|x64
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Debug|x64.Build.0 = Debug|x64
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Debug|x86.ActiveCfg = Debug|Win32
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Debug|x86.Build.0 = Debug|Win32
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Release|x64.ActiveCfg = Release|x64
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Release|x64.Build.0 = Release|x64
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Release|x86.ActiveCfg = Release|Win32
+		{17612A8D-21F4-4397-A53A-D6B93D49ED68}.Release|x86.Build.0 = Release|Win32
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Debug|x64.ActiveCfg = Debug|x64
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Debug|x64.Build.0 = Debug|x64
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Debug|x86.Build.0 = Debug|Win32
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Release|x64.ActiveCfg = Release|x64
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Release|x64.Build.0 = Release|x64
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Release|x86.ActiveCfg = Release|Win32
+		{AFCC1290-2FC3-434C-9400-96DD0F7B9101}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
